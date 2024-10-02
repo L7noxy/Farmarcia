@@ -1,139 +1,87 @@
-:root{
-  --cor-1: #e23e57;
-  --cor-2: #ffffff;
-  --cor-3: #e96a7e;
-  --cor-4: #ce1f3a;
-  --cor-5: #e6e6e6;
-  --cor-6: #ef97a4;
+.root {
+  --color1: #024959;
+  --color2: #ffffff;
+  --color3: #d9d9d9;
 }
 
 *{
-  padding: 0%;
-  margin: 0%;
   box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
 }
-
 body{
-  background-color: var(--cor-2);
-  font-family: "Fredoka", sans-serif;
-  font-optical-sizing: auto;
+  background-color: #024959;
+  font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
 }
-.nav-bar{
-  height: 150px;
-  background-color: var(--cor-1);
+
+.parte-login{
+  display: inline-block;
+  margin-left: 50%;
+  background-color: #d9d9d9;
+  height: 953px;
+  width: 960px;
+  border-radius: 40px 0px 0px 40px;
 }
 
-.btn {
-  font-size: 23px;
-  padding: 0.5em 2em;
-  border: transparent;
-  box-shadow: 3px 3px 1px rgb(0, 0, 0);
-  background: var(--cor-2);
-  color: black;
-  border-radius: 14px;
- }
- 
- .btn:hover {
-  background: rgb(2,0,36);
-  color: #ffffff;
-  background: var(--cor-4);
- }
- 
- .btn:active {
-  transform: translate(0em, 0.2em);
- }
-
- .btn{
-  padding-left: 40px;
-  margin-left: 60%;
+.senha{
+  border-radius: 40px;
+  padding: 10px;
+  font-size: 20px;
   margin-top: 50px;
- }
+  margin-left: 90px;
+  border: none;
+}
 
- .sobre-nos {
-  font-size: 23px;
-  padding: 0.5em 2em;
-  border: transparent;
-  box-shadow: 3px 3px 1px rgb(0, 0, 0);
-  background: var(--cor-2);
-  color: black;
-  border-radius: 14px;
- }
- 
- .sobre-nos:hover {
-  background: rgb(0, 0, 0);
-  color: #ffffff;
-  background: var(--cor-4);
- }
- 
- .sobre-nos:active {
-  transform: translate(0em, 0.2em);
- }
+.email{
+  display: inline-block;
+  border-radius: 40px;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 90px;
+  border: none;
+}
 
- .sobre-nos{
-  margin-left: 1%;
- }
+button{
+  background-color: #024959;
+  border-radius: 40px;
+  font-size: 25px;  
+  background-color: #f3f7fe;
+  color: #024959;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 200px;
+  height: 55px;
+  transition: 0.5s;
 
- .cadastro {
-  font-size: 23px;
-  padding: 0.5em 2em;
-  border: transparent;
-  box-shadow: 3px 3px 1px rgb(0, 0, 0);
-  background: var(--cor-2);
-  color: black;
-  border-radius: 14px;
- }
- 
- .cadastro:hover {
-  background: rgb(2,0,36);
-  color: #ffffff;
-  background: var(--cor-4);
- }
- 
- .cadastro:active {
-  transform: translate(0em, 0.2em);
- }
+}
 
- .cadastro {
-  margin-left: 1%;
- }
- 
- .login {
-  font-size: 23px;
-  padding: 0.5em 2em;
-  border: transparent;
-  box-shadow: 3px 3px 1px rgb(0, 0, 0);
-  background: var(--cor-2);
-  color: black;
-  border-radius: 14px;
- }
- 
- .login:hover {
-  background: rgb(2,0,36);
-  color: #ffffff;
-  background: var(--cor-4);
- }
- 
- .login:active {
-  transform: translate(0em, 0.2em);
- }
+button:hover {
+  background-color: #024959;
+  box-shadow: 0 0 0 5px #5C868F;
+  color: #fff;
+  transform: scale(1.1);
+}
 
- .login {
-  margin-left: 1%;
- }
+.Login-title{
+  display: inline-block;
+}
 
- .logo-branca{
-  margin-left: 1%;
-  height: 111px;
-  margin-top: -80px;
-  border-radius: 100px;
- }
+p{
+  display: inline-block;
+}
 
- .title{
-  font-size: 50px;
-  margin-top: -100px;
-  margin-left: 8%;
-  color: #ffffff;
+.E-mail-title{
+  display: inline-block;
+}
 
- }
+.Senha-title{
+  display: inline-block;
+}
+
+.esqueci{
+  display: inline-block;
+}
