@@ -1,4 +1,4 @@
-:root{
+:root {
   --cor-1: #e23e57;
   --cor-2: #ffffff;
   --cor-3: #e96a7e;
@@ -7,20 +7,21 @@
   --cor-6: #ef97a4;
 }
 
-*{
+* {
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: var(--cor-2);
   font-family: "Fredoka", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
 }
-.nav-bar{
+
+.nav-bar {
   height: 150px;
   background-color: var(--cor-1);
 }
@@ -33,25 +34,25 @@ body{
   background: var(--cor-2);
   color: black;
   border-radius: 14px;
- }
- 
- .btn:hover {
-  background: rgb(2,0,36);
+}
+
+.btn:hover {
+  background: rgb(2, 0, 36);
   color: #ffffff;
   background: var(--cor-4);
- }
- 
- .btn:active {
-  transform: translate(0em, 0.2em);
- }
+}
 
- .btn{
+.btn:active {
+  transform: translate(0em, 0.2em);
+}
+
+.btn {
   padding-left: 40px;
   margin-left: 60%;
   margin-top: 50px;
- }
+}
 
- .sobre-nos {
+.sobre-nos {
   font-size: 23px;
   padding: 0.5em 2em;
   border: transparent;
@@ -59,23 +60,23 @@ body{
   background: var(--cor-2);
   color: black;
   border-radius: 14px;
- }
- 
- .sobre-nos:hover {
+}
+
+.sobre-nos:hover {
   background: rgb(0, 0, 0);
   color: #ffffff;
   background: var(--cor-4);
- }
- 
- .sobre-nos:active {
+}
+
+.sobre-nos:active {
   transform: translate(0em, 0.2em);
- }
+}
 
- .sobre-nos{
+.sobre-nos {
   margin-left: 1%;
- }
+}
 
- .cadastro {
+.cadastro {
   font-size: 23px;
   padding: 0.5em 2em;
   border: transparent;
@@ -83,23 +84,23 @@ body{
   background: var(--cor-2);
   color: black;
   border-radius: 14px;
- }
- 
- .cadastro:hover {
-  background: rgb(2,0,36);
+}
+
+.cadastro:hover {
+  background: rgb(2, 0, 36);
   color: #ffffff;
   background: var(--cor-4);
- }
- 
- .cadastro:active {
-  transform: translate(0em, 0.2em);
- }
+}
 
- .cadastro {
+.cadastro:active {
+  transform: translate(0em, 0.2em);
+}
+
+.cadastro {
   margin-left: 1%;
- }
- 
- .login {
+}
+
+.login {
   font-size: 23px;
   padding: 0.5em 2em;
   border: transparent;
@@ -107,33 +108,180 @@ body{
   background: var(--cor-2);
   color: black;
   border-radius: 14px;
- }
- 
- .login:hover {
-  background: rgb(2,0,36);
+}
+
+.login:hover {
+  background: rgb(2, 0, 36);
   color: #ffffff;
   background: var(--cor-4);
- }
- 
- .login:active {
+}
+
+.login:active {
   transform: translate(0em, 0.2em);
- }
+}
 
- .login {
+.login {
   margin-left: 1%;
- }
+}
 
- .logo-branca{
+.logo-branca {
   margin-left: 1%;
   height: 111px;
   margin-top: -80px;
   border-radius: 100px;
- }
+}
 
- .title{
+.title {
   font-size: 50px;
-  margin-top: -100px;
+  margin-top: -80px;
   margin-left: 8%;
   color: #ffffff;
 
- }
+}
+
+
+/* IBUPROFENO */
+.ibuprofeno {
+  margin-top: 200px;
+  margin-left: 20px;
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.fundo-ibuprofeno {
+  background-color: var(--cor-1);
+  display: flex;
+  justify-content: center;
+  max-width: fit-content;
+  margin-left: 80px;
+  margin-top: 90px;
+  border-radius: 20px;
+}
+
+/* IBUPROFENO */
+
+/* DORFLEX */
+.Dorflex {
+  margin-left: 0px;
+  display: flex;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.fundo-Dorflex {
+  background-color: var(--cor-1);
+  display: flex;
+  justify-content: center;
+  max-width: fit-content;
+  margin-left: 80px;
+  margin-top: 90px;
+  border-radius: 20px;
+}
+
+/* DORFLEX */
+
+/* DORFLEX COMPRIMIDO */
+.Dorflex-comprimido {
+  margin-left: 0px;
+  display: flex;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.fundo-Dorflex-Comprimido {
+  background-color: var(--cor-1);
+  display: flex;
+  justify-content: center;
+  max-width: fit-content;
+  margin-left: 35%;
+  margin-top: -280px;
+  border-radius: 20px;
+}
+
+/* DORFLEX COMPRIMIDO */
+
+/* BUSCOPAN */
+.buscopan {
+  margin-left: 20px;
+  display: flex;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.fundo-Buscopan {
+  background-color: var(--cor-1);
+  display: flex;
+  justify-content: center;
+  max-width: fit-content;
+  margin-left: 35%;
+  margin-top: -780px;
+  border-radius: 20px;
+}
+
+/* BUSCOPAN */
+
+/* TRIGENTAL */
+.trigental {
+  margin-left: 20px;
+  display: flex;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.fundo-trigental {
+  background-color: var(--cor-1);
+  display: flex;
+  justify-content: center;
+  max-width: fit-content;
+  margin-left: 65%;
+  margin-top: -330px;
+  border-radius: 20px;
+}
+
+/* TRIGENTAL */
+
+/* ANTIPULGAS */
+.antipulgas {
+  margin-left: 20px;
+  display: flex;
+  margin-right: 30px;
+  margin-bottom: -30px;
+  margin-top: 0px;
+}
+
+.fundo-antipulgas {
+  background-color: var(--cor-1);
+  display: flex;
+  justify-content: center;
+  max-width: fit-content;
+  margin-left: 70%;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+/* ANTIPULGAS */
+.title-ibuprofeno{
+  margin-left: 6.7%;
+}
+
+.title-buscopan{
+  margin-left: 41%;
+}
+
+.title-trigental{
+  margin-left: 75.5%;
+}
+
+.title-dorflex-uno{
+  margin-left: 6.7%
+}
+
+.title-dorflex{
+  margin-left: 42%;
+}
+
+.title-antipulgas{
+  margin-left: 75.5%;
+}
