@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --cor-1: #e23e57;
   --cor-2: #ffffff;
@@ -10,17 +11,35 @@
 * {
   padding: 0%;
   margin: 0%;
-  box-sizing: border-box;
+=======
+.root {
+  --color1: #024959;
+  --color2: #ffffff;
+  --color3: #d9d9d9;
 }
+
+*{
+>>>>>>> 9f8b1c958f6d926e72d41fefbc01b3ba8bbda6c6
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+<<<<<<< HEAD
 
 body {
   background-color: var(--cor-2);
   font-family: "Fredoka", sans-serif;
   font-optical-sizing: auto;
+=======
+body{
+  background-color: #024959;
+  font-family: "Poppins", sans-serif;
+>>>>>>> 9f8b1c958f6d926e72d41fefbc01b3ba8bbda6c6
   font-weight: 100;
   font-style: normal;
 }
 
+<<<<<<< HEAD
 .nav-bar {
   height: 150px;
   background-color: var(--cor-1);
@@ -285,3 +304,74 @@ body {
 .title-antipulgas{
   margin-left: 75.5%;
 }
+=======
+.parte-login{
+  display: inline-block;
+  margin-left: 50%;
+  background-color: #d9d9d9;
+  height: 953px;
+  width: 960px;
+  border-radius: 40px 0px 0px 40px;
+}
+
+.senha{
+  border-radius: 40px;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 90px;
+  border: none;
+}
+
+.email{
+  display: inline-block;
+  border-radius: 40px;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 90px;
+  border: none;
+}
+
+button{
+  background-color: #024959;
+  border-radius: 40px;
+  font-size: 25px;  
+  background-color: #f3f7fe;
+  color: #024959;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 200px;
+  height: 55px;
+  transition: 0.5s;
+
+}
+
+button:hover {
+  background-color: #024959;
+  box-shadow: 0 0 0 5px #5C868F;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.Login-title{
+  display: inline-block;
+}
+
+p{
+  display: inline-block;
+}
+
+.E-mail-title{
+  display: inline-block;
+}
+
+.Senha-title{
+  display: inline-block;
+}
+
+.esqueci{
+  display: inline-block;
+}
+>>>>>>> 9f8b1c958f6d926e72d41fefbc01b3ba8bbda6c6
